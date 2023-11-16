@@ -1,0 +1,29 @@
+{
+  "name": "mx.utxj.ti.dmi.api_videogame_200644",
+  "version": "1.0.0",
+  "description": "API REST para realizar las operaciones CRUD a una base de datos relacional, del proyecto de videojuego.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Mysql",
+    "Sequelize",
+    "Express"
+  ],
+  "author": "Ing. Daniela Alvarez Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.3",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.34.0"
+  }
+}
